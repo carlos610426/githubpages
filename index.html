@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Desarrollo Web</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/bc782a471b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>   
+ <style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  .cabecera { 
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+  }
+  .logo{
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  
+  h1, h2, h4 {
+    color: #0077cc;
+  }
+  
+  p {
+    color: #333;
+    line-height: 1.6;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .cuerpo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px 0;
+  }
+  
+  .cuerpo .tarjeta {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    flex: 1 1 30%;
+    min-width: 250px;
+    max-width: 200px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .cuerpo img {
+    width: 60px;
+    margin-top: 10px;
+  }
+  
+  .footer {
+   width: 150px;
+   height: auto;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, ); 
+   display: block;
+   margin: 20px auto;
+   border-radius: 8px;
+  }
+  hr {
+    margin: 10px 0;
+  }
+ </style>
+  <div class="container">
+    <div class="cabecera">
+        <img src="logo.png" alt="logo" class="logo">
+    
+        <hr>
+    </div>
+    <h1>HTML, CSS y JavaScript:</h1>
+    <p>
+      Son los tres pilares fundamentales del desarrollo web que trabajan juntos para<br>
+      crear páginas web dinámicas e interactivas.<br>
+      HTML se encarga de la estructura y el contenido, CSS del diseño y la presentación,<br>
+      y JavaScript de la interactividad y funcionalidad.
+    </p>
+
+    <h2>Definiciones</h2>
+    <div class="cuerpo">
+      <div class="tarjeta">
+        <h4>HTML (HyperText Markup Language):</h4>
+        <p>
+          Es el lenguaje de marcado que define la estructura y el contenido de una página web.<br>
+          Utiliza etiquetas para delimitar diferentes elementos, como párrafos, encabezados, imágenes, etc.
+        </p>
+        <img class="img" src="html.jpg" alt="HTML">
+      </div>
+
+      <div class="tarjeta">
+        <h4>CSS (Cascading Style Sheets):</h4>
+        <p>
+          Es un lenguaje de estilos que se utiliza para controlar la presentación de una página web.<br>
+          Permite definir colores, fuentes, márgenes, tamaños, etc.
+        </p>
+        <img class="img" src="css.jpg" alt="CSS">
+      </div>
+
+      <div class="tarjeta">
+        <h4>JavaScript (Programming Language):</h4>
+        <p>
+          Es un lenguaje de programación que permite agregar funcionalidad interactiva a una página web.<br>
+          Permite manipular elementos HTML y responder a eventos del usuario.
+        </p>
+        <img class="img" src="js.jpg" alt="JavaScript">
+      </div>
+    </div>
+
+    <h2>Analogía de la web y una casa:</h2>
+    <div class="cuerpo">
+      <i class="fa-fant fa-html5"></i>
+      <div class="tarjeta">
+        <h4>HTML</h4>
+        <p>
+          Estructura de la casa.<br>
+          Como las paredes, techos y distribución de habitaciones.<br>
+          Define la estructura básica (títulos, párrafos, imágenes...).
+        </p>
+      </div>
+
+      <div class="tarjeta">
+        <i class="fa-fant fa-css"></i>
+        <h4>CSS</h4>
+        <p>
+          Decoración y estilo de la casa: pintura, cortinas, muebles, etc.<br>
+          Controla cómo se ve la página visualmente.
+        </p>
+      </div>
+
+      <div class="tarjeta">
+        <i class="fa-fant fa-js"></i>
+        <h4>JavaScript</h4>
+        <p>
+          Sistemas eléctricos y funcionalidad: luces, puertas automáticas, sensores.<br>
+          Añade interactividad y reacciones a eventos.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+        
+      <img src="casa2.png" alt="Casa" class="footer" >
+    </div>
+    <hr>
+    <h2>Resumen</h2>
+    <p>
+      "Los tres lenguajes son esenciales para el desarrollo web, y cada uno juega un papel crucial<br>
+      en la creación de páginas web modernas y funcionales."
+    </p>
+    
+  </div>
+
+</body>
+</html>
